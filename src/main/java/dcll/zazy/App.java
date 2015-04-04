@@ -4,10 +4,16 @@ package dcll.zazy;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public final class App {
+
+    /**
+     * private constructor.
+     */
+    private App() { };
+    /**
+     * main function.
+     * @param args execution arguments.
+     */
+    public static void main(final String[] args) {
+        System.out.println("Hello World!"); }
 }
